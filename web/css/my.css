@@ -4,6 +4,11 @@ body {
     background-size: cover;
 }
 
+.div1 {
+	margin-top: 60px;
+	height: 100%;
+}
+
 .enumHeadPerson {
     font-weight: bold;
     font-family: cursive;
