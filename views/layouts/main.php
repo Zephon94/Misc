@@ -21,6 +21,7 @@ AppAsset::register($this);
     <?php $this->registerCsrfMetaTags() ?>
     <title>ASG</title>
     <?php $this->head() ?>
+    
 </head>
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>

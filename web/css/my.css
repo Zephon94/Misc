@@ -9,9 +9,9 @@ body {
 	height: 100%;
 }
 
-
-.enumHeadPerson {
-    font-weight: bold;
-    font-family: cursive;
-    color: orange;
+.contactList {
+	margin-top: 60px;
+	font-size: 21px;
+	color: blue;
+	display: inline-block;
 }
