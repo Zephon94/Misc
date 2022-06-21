@@ -1,10 +1,3 @@
-<style>
-    body {
-        /*background-image: url("/web/images/3.jpg");*/
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-</style>
 <div style="text-align: center;margin-top: 60px">
 	<img src="/web/images/Эмблема Компании.jpg" style="height: 100px;width: 100px;">
 </div>

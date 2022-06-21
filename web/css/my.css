@@ -1,6 +1,5 @@
 body {
-    background-image: url("../images/1.jpg");
-    background: white;
+    background: url("/web/images/2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,8 +14,26 @@ body {
     }
 
 .header{width: 100%;
-    background-image: linear-gradient(to right, #2e4fd3, #7bdcd1);
+    background-image: linear-gradient(to right, #d05e35, #dca07b);
     }
-.navbar-brand{white: white!important;}
+.navbar-brand{color: white!important;}
 .nav-link{color: white!important;}
 .nav-link:hover{color: rgb(255,0,212)!important;}
+
+.div1 {
+	margin-top: 60px;
+	height: 100%;
+}
+.navbar-red {
+    background-image: linear-gradient(to right, #d05e35, #dca07b);
+}
+
+.padding-link {
+    padding-right: 10px;
+    color: white;
+}
+
+.padding-link > a{
+    color: white;
+}
+

@@ -18,42 +18,43 @@ AppAsset::register($this);
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
-	<?php $this->head() ?>
+    <?php $this->registerCsrfMetaTags() ?>
+    <title>ASG</title>
+    <?php $this->head() ?>
+    
 </head>
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
 
 <header>
-	<?php
-	NavBar::begin([
-		'brandLabel' => 'Алгоритм Строительная Компания',
-		'brandUrl' => Yii::$app->homeUrl,
-		'options' => [
-			'class' => 'navbar navbar-expand-md navbar-dark bg-dark fixed-top',
-		],
-	]);
-	echo Nav::widget([
-		'options' => ['class' => 'navbar-nav'],
-		'items' => [
-			['label' => 'Главная', 'url' => ['/my/index']],
-			['label' => 'О Нас', 'url' => ['/my/about']],
-			['label' => 'Услуги', 'url' => ['/my/service']],
-			['label' => 'Контакты', 'url' => ['/my/contact']],
-		]
-	]);
-	NavBar::end();
-	?>
+    <?php
+    NavBar::begin([
+        'brandLabel' => 'Алгоритм Строительная Компания',
+        'brandUrl' => Yii::$app->homeUrl,
+        'options' => [
+            'class' => 'navbar navbar-expand-md navbar-dark bg-dark fixed-top',
+        ],
+    ]);
+    echo Nav::widget([
+        'options' => ['class' => 'navbar-nav'],
+        'items' => [
+            ['label' => 'Главная', 'url' => ['/my/index']],
+            ['label' => 'О Нас', 'url' => ['/my/about']],
+            ['label' => 'Услуги', 'url' => ['/my/service']],
+            ['label' => 'Контакты', 'url' => ['/my/contact']],
+        ],
+    ]);
+    NavBar::end();
+    ?>
 </header>
 
 <main role="main" class="flex-shrink-0">
     <div class="container">
-		<?= Breadcrumbs::widget([
-			'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-		]) ?>
-		<?= Alert::widget() ?>
-		<?= $content ?>
+        <?= Breadcrumbs::widget([
+            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+        ]) ?>
+        <?= Alert::widget() ?>
+        <?= $content ?>
     </div>
 </main>
 

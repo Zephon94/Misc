@@ -1,10 +1,3 @@
-<!--<style>-->
-<!--    body {-->
-<!--        background-image: url("/web/images/2.jpg");-->
-<!--        background-repeat: no-repeat;-->
-<!--        background-size: cover;-->
-<!--    }-->
-<!--</style>-->
  <div class="div1" style="display: flex;align-items: center;justify-content: center;margin-top: 60px">
 	<div style="font-size: 20pt;font-weight: bold;">"Алгоритм Строй Групп"</div>
 	<div><img src="/web/images/Эмблема компании.jpg" style="height: 100px"></div>
