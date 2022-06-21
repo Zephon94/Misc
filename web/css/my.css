@@ -1,11 +1,22 @@
 body {
-    background-image: url("../images/2.jpg");
+    background-image: url("../images/1.jpg");
+    background: white;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.enumHeadPerson {
+.contactList {
+    font-size: 21px;
     font-weight: bold;
     font-family: cursive;
-    color: orange;
+    color: black;
 }
+*{margin: 0;padding: 0;
+    }
+
+.header{width: 100%;
+    background-image: linear-gradient(to right, #2e4fd3, #7bdcd1);
+    }
+.navbar-brand{white: white!important;}
+.nav-link{color: white!important;}
+.nav-link:hover{color: rgb(255,0,212)!important;}
