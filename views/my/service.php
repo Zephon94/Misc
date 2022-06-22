@@ -5,6 +5,7 @@
 	<b>Миссия компании</b> – мы сделаем ваш бизнес удобнее.
 </div>
 
+<<<<<<< HEAD
 <div>
 	<p><a href="#s1">Fire</a></p>
 	<p><a href="#s2">EOM</a></p>
@@ -14,6 +15,10 @@
 
 <div style="display: inline-block;margin-top: 30px">
 	<a id="s1">Противпожарная безопасность</a>
+=======
+<div style="display: inline-block;margin-top: 30px">
+	Противпожарная безопасность
+>>>>>>> faf2164e038d8c2f4901a0059384525a58f33e4b
 	<img src="/web/images/Services/symbols/fire.jpg" style="height: 30px">
 </div>
 <div>
@@ -22,7 +27,11 @@
 </div>
 
 <div style="display: inline-block;">
+<<<<<<< HEAD
 	<b id="s2">ЭОМ</b> - система внутреннего электроосвещения и силового оборудования
+=======
+	<b>ЭОМ</b> - система внутреннего электроосвещения и силового оборудования
+>>>>>>> faf2164e038d8c2f4901a0059384525a58f33e4b
 	<img src="/web/images/Services/symbols/EOM.png" style="height: 30px">
 </div>
 <div>
@@ -33,7 +42,11 @@
 </div>
 
 <div style="display: inline-block;">
+<<<<<<< HEAD
 	<a id="s3">Кондиционирование и вентиляция</a>
+=======
+	Кондиционирование и вентиляция 
+>>>>>>> faf2164e038d8c2f4901a0059384525a58f33e4b
 	<img src="/web/images/Services/symbols/conditioner.png" style="height: 30px">
 </div>
 <div>
