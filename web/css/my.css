@@ -1,17 +1,43 @@
 body {
-    background-image: url("/images/1.jpg");
+    /*background: url("/web/images/2.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.contactList {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+}
+*{margin: 0;padding: 0;
+    }
+
+.header{width: 100%;
+    background-image: linear-gradient(to right, #d05e35, #dca07b);
+    }
+
+.navbar-brand{color: white!important;}
+.nav-link{color: white!important;}
+.nav-link:hover{color: rgb(255,0,212)!important;}
 
 .div1 {
 	margin-top: 60px;
 	height: 100%;
 }
-
-.contactList {
-	margin-top: 60px;
-	font-size: 21px;
-	color: blue;
-	display: inline-block;
+.navbar-red {
+    background-image: linear-gradient(to right, #d05e35, #dca07b);
 }
+
+.padding-link {
+    padding-right: 30px;
+    color: white;
+}
+
+.padding-link > a{
+    color: white;
+}
+
+a
+

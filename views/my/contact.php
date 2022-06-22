@@ -12,6 +12,3 @@
         <img src="/web/images/Контакты/Рисунок8.png" style="height: 60px">
     </div>
 </div>
-<!--     <div style="margin-bottom: 10px">
-        <img src="/web/images/Эмблема Компании.jpg" style="height: 100px;width: 100px;">
-    </div> -->

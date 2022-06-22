@@ -5,8 +5,15 @@
 	<b>Миссия компании</b> – мы сделаем ваш бизнес удобнее.
 </div>
 
+<div>
+	<p><a href="#s1">Fire</a></p>
+	<p><a href="#s2">EOM</a></p>
+	<p><a href="#s3">COND</a></p>
+
+</div>
+
 <div style="display: inline-block;margin-top: 30px">
-	Противпожарная безопасность
+	<a id="s1">Противпожарная безопасность</a>
 	<img src="/web/images/Services/symbols/fire.jpg" style="height: 30px">
 </div>
 <div>
@@ -15,7 +22,7 @@
 </div>
 
 <div style="display: inline-block;">
-	<b>ЭОМ</b> - система внутреннего электроосвещения и силового оборудования
+	<b id="s2">ЭОМ</b> - система внутреннего электроосвещения и силового оборудования
 	<img src="/web/images/Services/symbols/EOM.png" style="height: 30px">
 </div>
 <div>
@@ -26,7 +33,7 @@
 </div>
 
 <div style="display: inline-block;">
-	Кондиционирование и вентиляция 
+	<a id="s3">Кондиционирование и вентиляция</a>
 	<img src="/web/images/Services/symbols/conditioner.png" style="height: 30px">
 </div>
 <div>
