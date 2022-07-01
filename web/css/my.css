@@ -1,20 +1,12 @@
 body {
-<<<<<<< HEAD
-    /*background: url("/web/images/2.jpg");*/
-=======
-    background: url("/web/images/2.jpg");
->>>>>>> faf2164e038d8c2f4901a0059384525a58f33e4b
+    background: url("/web/images/5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .contactList {
-<<<<<<< HEAD
     text-align: center;
     font-size: 30px;
-=======
-    font-size: 21px;
->>>>>>> faf2164e038d8c2f4901a0059384525a58f33e4b
     font-weight: bold;
     font-family: cursive;
     color: black;
@@ -25,28 +17,23 @@ body {
 .header{width: 100%;
     background-image: linear-gradient(to right, #d05e35, #dca07b);
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> faf2164e038d8c2f4901a0059384525a58f33e4b
-.navbar-brand{color: white!important;}
+.navbar-brand{color: white;}
 .nav-link{color: white!important;}
 .nav-link:hover{color: rgb(255,0,212)!important;}
+
 
 .div1 {
 	margin-top: 60px;
 	height: 100%;
 }
 .navbar-red {
-    background-image: linear-gradient(to right, #d05e35, #dca07b);
+    /*background-image: linear-gradient(to right, #0e52bb, #2b9aa8);*/
+    background: #0e52bb;
 }
 
 .padding-link {
-<<<<<<< HEAD
     padding-right: 30px;
-=======
-    padding-right: 10px;
->>>>>>> faf2164e038d8c2f4901a0059384525a58f33e4b
     color: white;
 }
 
@@ -54,8 +41,3 @@ body {
     color: white;
 }
 
-<<<<<<< HEAD
-a
-
-=======
->>>>>>> faf2164e038d8c2f4901a0059384525a58f33e4b

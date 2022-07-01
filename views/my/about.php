@@ -1,6 +1,6 @@
  <div class="div1" style="display: flex;align-items: center;justify-content: center;margin-top: 60px">
 	<div style="font-size: 20pt;font-weight: bold;">"Алгоритм Строй Групп"</div>
-	<div><img src="/web/images/Эмблема компании.jpg" style="height: 100px"></div>
+	<div><img src="/web/images/Эмблема%20компании.png" style="height: 100px"></div>
 </div>
 <div style="margin: 0 10px 10px 0;">
 	<p><h2>С 2018 года на инженерно-строительном рынке</h2></p>
