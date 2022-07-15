@@ -28,7 +28,7 @@ AppAsset::register($this);
             <nav class="navbar fixed-top navbar-expand-lg navbar-red">
                 <div class="container-fluid padding-link">
                 <div class="container-fluid">
-                    <a class="navbar-brand"><?=Html::a('Algorithm Stroy Group','/web/')?></a>
+                    <a class="navbar-brand"><?=Html::a('Algorithm Stroy Group','/web/my/index')?></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

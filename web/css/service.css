@@ -1,0 +1,239 @@
+
+p {
+top: 300px;
+  color: red; /* incorrect spelling of the color property */
+  font-size: 100%;
+  box-sizing: content-box;
+  width: 100%;
+  box-shadow: gray;
+  box-sizing: content-box;
+}
+ol {
+  top: -30000px;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  border: 2px solid #c1c1c1;
+  background: #f2f1f1;
+}
+hr {
+    width: 100%;
+    color: red;
+    background-color: #c1c1c1;
+    height: 4px;
+}
+d {
+
+  color: black; /* incorrect spelling of the color property */
+  font-size: 100%;
+  box-sizing: content-box;
+  width: 100%;
+  box-shadow: gray;
+  box-sizing: content-box;
+}
+ main {
+    margin-bottom: 0%;
+  }
+  .floating-menu {
+    font-family: sans-serif;
+    background: #c1c1c1;
+    padding: 7px;;
+    width: 320px;
+    z-index: 100;
+    position: fixed;
+    top: 350px;
+    left: 5px;/* You can change float left/right */
+  }
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: black;
+  }
+
+.kek{
+  text-align: center;
+  margin-top: center;
+}
+/* Style the Image Used to Trigger the Modal */
+#imga {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgb {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgc {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgd {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imge {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgf {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgh {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgi {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgj {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgk {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgl {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgm {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgn {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgo {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgp {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgq {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgr {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgs {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imgt {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#imga:hover {opacity: 0.7;}
+#imgb:hover {opacity: 0.7;}
+#imgc:hover {opacity: 0.7;}
+#imgd:hover {opacity: 0.7;}
+#imge:hover {opacity: 0.7;}
+#imgf:hover {opacity: 0.7;}
+#imgg:hover {opacity: 0.7;}
+#imgh:hover {opacity: 0.7;}
+#imgi:hover {opacity: 0.7;}
+#imgj:hover {opacity: 0.7;}
+#imgk:hover {opacity: 0.7;}
+#imgl:hover {opacity: 0.7;}
+#imgm:hover {opacity: 0.7;}
+#imgn:hover {opacity: 0.7;}
+#imgo:hover {opacity: 0.7;}
+#imgp:hover {opacity: 0.7;}
+#imgq:hover {opacity: 0.7;}
+#imgr:hover {opacity: 0.7;}
+#imgs:hover {opacity: 0.7;}
+#imgt:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+:target {
+    display: block;    
+    position: relative;     
+    top: -100px;
+
+}
