@@ -1,4 +1,4 @@
-<div style="margin-top: 200px">
+<div style="margin-top: 100px">
     <div class="contactList" style="margin-top: 40px">
         <p style="display: inline-block;">&bull; <b>Генеральный директор</b> - Коломицев Сергей Игоревич<br><b>Телефон:</b> 8-965-252-74-40 Mail: <b>kolomitsev@asg.expert</b></p>
         <img src="/web/images/Контакты/Рисунок6.png" style="height: 60px">

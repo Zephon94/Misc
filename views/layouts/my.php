@@ -25,9 +25,9 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
     <section class="header">
         <div class="container">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-red">
-                <div class="container-fluid padding-link">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-color">
                 <div class="container-fluid">
+                <div class="container-fluid padding-link">
                     <a class="navbar-brand"><?=Html::a('Algorithm Stroy Group','/web/')?></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -52,17 +52,19 @@ AppAsset::register($this);
                             <li class="nav-item padding-link">
                                 <a class="nav-link"><?=Html::a('Контакты',['my/contact'])?></a>
                         </ul>
-                        <h4 style="font-size: 15pt">8-965-252-74-40 Сергей<br>8-925-888-23-24 Михаил</h4>
+                        <h4 style="font-size: 15pt;color: white">8-965-252-74-40 Сергей<br>8-925-888-23-24 Михаил</h4>
                     </div>
                 </div>
             </nav>
-<!--			--><?//= $content ?>
         </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <?= $content ?>
+    <?=$this->render('myFooter');?>
+<!-- Footer -->
+
 <?php $this->endBody() ?>
 </body>
 </html>
