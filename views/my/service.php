@@ -46,7 +46,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <div style="text-align: center;margin-top: 100px">
 	<img src="/web/images/Эмблема Компании.png" style="height: 100px;width: 100px;">
 </div>
-
+<div>
+	asdasdasdasdasdasdasdasdasd
+</div>
+<div>
+	asdasdasdasdasdasdasdasdasd
+</div>
 <div style="text-align: center;font-size: 30px">
 	<b>Миссия компании</b> – мы сделаем ваш бизнес удобнее.
 </div>
