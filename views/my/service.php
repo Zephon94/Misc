@@ -32,7 +32,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <nav class="floating-menu">
     <h3>Содержание:</h3>
     <ol style="line-height: 50%;">
-	<li><p><a class="anchor" id="top" href="#s1">Пожарная безопасноfvdsdxfgsdfgсть</a></p></li>
+	<li><p><a class="anchor" id="top" href="#s1">Пожарная безопасность</a></p></li>
 	<li><p><a class="anchor" id="top" href="#s2">EOM</a></p></li>
 	<li><p><a class="anchor" id="top" href="#s3">COND</a></p></li>
 	<li><p><a class="anchor" id="top" href="#s4">видеонаблюдение</a></p></li>
@@ -44,7 +44,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   </nav>
 </main>
 <div style="text-align: center;margin-top: 100px">
-	<img src="/web/images/Эмблема Компании.jpg" style="height: 100px;width: 100px;">
+	<img src="/web/images/Эмблема Компании.png" style="height: 100px;width: 100px;">
 </div>
 
 <div style="text-align: center;font-size: 30px">
